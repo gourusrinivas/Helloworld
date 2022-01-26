@@ -1,0 +1,13 @@
+node {
+    stage('Preparation') {
+        
+    }
+    stage('Build') {
+        
+    }
+    stage('Post build action') {
+        bat ''' ECHO Hello World '''
+        
+    }
+    
+}
