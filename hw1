@@ -1,12 +1,12 @@
 node {
     stage('Preparation') {
-        bat ''' ECHO Hi '''
+        bat ''' echo hw2.bat '''
     }
     stage('Build') {
-        bat ''' ECHO Hello '''
+        bat '''  '''
     }
     stage('Post build action') {
-        bat ''' ECHO Hello World '''
+        bat '''  '''
         
     }
     
